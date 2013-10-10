@@ -1,9 +1,9 @@
 iShortener
 ===========
 
-A simple contact us form with jQuery validation, PHP and Ajax
+A simple iShortener 
 
-In order to use this form you have to enter three things:
+In order to use this form you have to enter three things for set contact us:
 - your reCAPTCHA private key in contactProcess.php (search for YOUR reCAPTCHA Private KEY = 6Leqf-USAAAAALAerlQxxze_LoKvp0KD1lh7iBK2)
 - your reCAPTCHA public key in contact.php (search twice for YOUR reCAPTCHA PUBLIC KEY = 6Leqf-USAAAAALwY8sVy5KXdX0AsQ4IwxIi7G8Bh)
 - your email address in contactProcess.php (search for YOUR EMAIL)
