@@ -1,18 +1,15 @@
+<?php
+session_start();
+require_once('contact_files/includes/recaptchalib.php');
+?>
+
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <title>iShortener - About Us</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta name="description" content="Your_Description" />
-        <meta name="keywords" content="Your_Keywords" />
-	    <meta name="author" content="IDVSE Developer, iDeveloper" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css" />
-        <link rel="stylesheet" type="text/css" href="css/aquaadmin.css" />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /></head>
-    <body>
-        <script type="text/javascript" src="js/jquery.min.js"></script>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <?php require_once('header.php'); ?>
+  </head>
+
+  <body>
+<script type="text/javascript" src="js/jquery.min.js"></script>
         <div class="navbar navbar-fixed-top">
             <div class="navbar-inner">
                 <div class="container-fluid">
@@ -22,11 +19,14 @@
                         <span class="icon-bar"></span>
                     </a>
                     <a class="brand" href="./">iShortener</a>
+                    <a href="https://github.com/IDVSE" target="_blank"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
                     <div class="nav-collapse">
                         <ul class="nav">
                             <li><a href="./"><i class="icon-home icon-aqua"></i> Home</a></li>
-							<li class="active"><a href="about.html"><i class="icon-user icon-aqua"></i> About</a></li>
+							<li class="active"><a href="about.php"><i class="icon-user icon-aqua"></i> About</a></li>
                             <li><a href="contact.php"><i class="icon-envelope icon-aqua"></i> Contact</a></li>
+							<li><a href="tos.php"><i class="icon-exclamation-sign icon-aqua"></i> TOS</a></li>
+							<li><a href="privacy.php"><i class="icon-info-sign icon-aqua"></i> Privacy policy</a></li>
                         </ul>
                     </div><!--/.nav-collapse -->
                 </div>
@@ -42,13 +42,14 @@
                     <div class="sidebar-nav">
                         <ul class="nav nav-list">
                             <li><a href="./"><i class="icon-home icon-aqua"></i> Home</a></li>
-                            <li class="active"><a href="about.html"><i class="icon-user icon-aqua"></i> About</a></li>
+                            <li class="active"><a href="about.php"><i class="icon-user icon-aqua"></i> About</a></li>
                             <li><a href="contact.php"><i class="icon-envelope icon-aqua"></i> Contact</a></li>
+							<li><a href="tos.php"><i class="icon-exclamation-sign icon-aqua"></i> TOS</a></li>
+							<li><a href="privacy.php"><i class="icon-info-sign icon-aqua"></i> Privacy policy</a></li>
                         </ul>
                     </div>
                 </div><!--/span-->
                 <div class="span10 content">
-                    <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="/netbeans/bootstrap/js/excanvas.min.js"></script><![endif]-->
                     <div id="content">
                         <div class="span11 panel">
                             <div class="panel-header">
@@ -124,14 +125,11 @@ Click to see example:<br>
                     </div><!-- content -->
                 </div>
             </div><!--/row-->
-            <hr />
-            <footer>
-                <p>Copyright &copy; <a href="./">iShortener</a></p>
-            </footer>
+
+			
+            <?php require_once('footer.php'); ?> 
+			
         </div><!--/.fluid-container-->
-        <script type='text/javascript' src='js/bootstrap.min.js'></script>
-        <script type="text/javascript" src="flot/jquery.flot.min.js"></script>
-        <script type="text/javascript" src="flot/jquery.flot.pie.min.js"></script>
-        <script type="text/javascript" src="flot/jquery.flot.resize.min.js"></script>
-    </body>
-</html>
+        <script type='text/javascript' src='./js/bootstrap.min.js'></script>
+			
+</body></html>
