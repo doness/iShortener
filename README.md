@@ -14,7 +14,7 @@ Specifications:
 - jQuery (client-side) validation
 - Send button is disabled if Javascript is disabled
 - Server side validation
-- Designed based on Twitter bootstrap
+- Designed based on Twitter Bootstrap 5% and Materialize 95%
 - Spam prevention using reCAPTCHA
 
 ==========================================================
