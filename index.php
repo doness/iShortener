@@ -113,6 +113,10 @@
 	</div>	
     
 	<script type='text/javascript' src='./js/bootstrap.min.js'></script>
+<<<<<<< HEAD
 	<?php require_once('inti/footer.php'); ?> 
+=======
+	<?php require_once('footer.php'); ?> 
+>>>>>>> origin/master
 </body>
 </html>
