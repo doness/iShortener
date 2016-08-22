@@ -1,7 +1,3 @@
-Screenshot
-===========
-<a href="http://pho.to/AHyjG" target="_blank"><img src="http://i.share.pho.to/814fb6e5_c.png"/></a>
-
 iShortener
 ===========
 
@@ -11,6 +7,13 @@ In order to use this form you have to enter three things for set contact us:
 - your reCAPTCHA private key in contactProcess.php (search for YOUR reCAPTCHA Private KEY = 6Leqf-USAAAAALAerlQxxze_LoKvp0KD1lh7iBK2)
 - your reCAPTCHA public key in contact.php (search twice for YOUR reCAPTCHA PUBLIC KEY = 6Leqf-USAAAAALwY8sVy5KXdX0AsQ4IwxIi7G8Bh)
 - your email address in contactProcess.php (search for YOUR EMAIL)
+
+Screenshot
+===========
+<a href="http://pho.to/AHyjG" target="_blank"><img src="http://i.share.pho.to/814fb6e5_c.png"/></a>
+[URL=http://pho.to/AHyjG][IMG]http://i.share.pho.to/814fb6e5_c.png[/IMG][/URL]
+
+==========================================================
 
 Get reCAPTCHA keys at http://www.google.com/recaptcha/whyrecaptcha
 
