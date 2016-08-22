@@ -34,7 +34,4 @@ CREATE TABLE IF NOT EXISTS `links` (
 
 INSERT INTO `links` (`linkID`, `destination`, `string`, `added`, `ip`) VALUES
 (1, 'en.wikipedia.org/wiki/URL_shortening', '1', 1315595435, 0),
-(2, 'google.com', '2', 1315495438, 0),
-(3, 'crivion.com', '3', 1315495413, 0),
-(4, 'localhost', '4', 1315512736, 0),
-(5, 'scriptoggle.com', '5', 1315516395, 0);
+(2, 'google.com', '2', 1315495438, 0);
