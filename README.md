@@ -20,7 +20,7 @@ Specifications:
 ==========================================================
 Open about.php
 Edit "yoururl/1"
-Ex : "stelso.tk/1"
+Ex : "yourdomain.tk/1"
 
 =======================================================
 Open db.php and setting
@@ -34,14 +34,14 @@ Installation is easy, go to hosting Cpanel and Create a MySQL Database & Usernam
 
 Once you've done that, go to PHPMyADmin and import the file called database.sql
 
-Last step is to open db.php and update MySQL Credentials and admin area password (your admin area url is http://site.com/admin.php)
+Last step is to open db.php and update MySQL Credentials and admin area password (your admin area url is http://yourdomain.com/admin.php)
 
 =Image Host=
 
 ///////////////////////////////////  iOPTIONS  ///////////////////////////////////////////
 
 
-$siteurl = "stelso.tk"; // Your domains or subdomains (e.g. idvse.com or idvse.com/folder)
+$siteurl = "yourdomain.com"; // Your domains or subdomains (e.g. yourdomain.com or yourdomain.com/folder)
 
 
 $folder = "i"; // To upload the Folder (folder chmod to 777)
