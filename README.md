@@ -10,8 +10,8 @@ In order to use this form you have to enter three things for set contact us:
 
 Screenshot
 ===========
-<a href="http://pho.to/AHyjG" target="_blank"><img src="http://i.share.pho.to/814fb6e5_c.png"/></a>
-[URL=http://pho.to/AHyjG][IMG]http://i.share.pho.to/814fb6e5_c.png[/IMG][/URL]
+<a href="http://pho.to/AHyjG" target="_blank"><img src="http://i.share.pho.to/814fb6e5_c.png"/></a><br/>
+<a href="https://i.imgsafe.org/b318bd5615.png" target="_blank"><img src="https://i.imgsafe.org/b318bd5615.png"/></a>
 
 ==========================================================
 
