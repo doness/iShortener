@@ -8,6 +8,8 @@ In order to use this form you have to enter three things for set contact us:
 - your reCAPTCHA public key in contact.php (search twice for YOUR reCAPTCHA PUBLIC KEY = 6Leqf-USAAAAALwY8sVy5KXdX0AsQ4IwxIi7G8Bh)
 - your email address in contactProcess.php (search for YOUR EMAIL)
 
+<a href="https://github.com/doness/iShortener/releases" target="_blank">Releases</a>
+
 Screenshot
 ===========
 <a href="http://pho.to/AHyjG" target="_blank"><img src="http://i.share.pho.to/814fb6e5_c.png"/></a><br/>
